@@ -12,3 +12,32 @@ Hints:
     hr dividing line between posts  
 */
 
+body {
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 20px solid #bdc3c7;
+}
+
+h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+div p:first-of-type {
+    color: #3490db;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+}
+
+.title {
+    color: #2c3e50;
+}
+
+.block_quote {
+    border-left: 5px solid #bdc3c7;
+    padding-left: 5px;
+}
